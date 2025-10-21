@@ -1,0 +1,29 @@
+ul {
+    display: flex;
+    justify-content:  center;
+    background-color: #383E4C;
+}
+
+* {
+    text-align: center;
+}
+
+li {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    max-height: 20px;
+    background-color: #383E4C;
+    color: white;
+    
+}
+
+li:hover {
+    opacity: .5;
+}
+
+.road {
+    align-self: flex-end;
+}
