@@ -1,5 +1,10 @@
+h1 {
+    font-weight: 100;
+}
+
 ul {
     display: flex;
+    flex-wrap: wrap;
     justify-content:  center;
     background-color: #383E4C;
 }
@@ -11,30 +16,43 @@ ul {
 
 li {
     list-style-type: none;
-    padding-left: 30px;
-    padding-right: 30px;
+    border: 1px solid #646D7C;
+    padding-left: 10px;
+    padding-right: 10px;
     padding-top: 10px;
     padding-bottom: 10px;
+    margin: 1em;
     max-height: 20px;
-    background-color: #383E4C;
     color: white;    
 }
 
 li:hover {
-    opacity: .5;
+    background: #49505F;
 }
 
 .road {
-    align-self: start;
-}
-
-.H {
-    background-color: #383E4C;
+    margin: 0;
+    padding: 0;
 }
 
 .O {
     transform: translate(0%, -600px);
     font-weight: normal;
     color: white;
-    background-image: url("layout-01-assets/autumn.jpg");
+    font-weight: normal;
+}
+
+footer {
+    font-style: italic;
+    font-weight: 100;
+    color:#646D7C ;
+}
+
+#bottom {
+    border: 1px solid #EEEEEE;
+    padding-bottom: 80px;
+    padding-top: 25px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
 }
